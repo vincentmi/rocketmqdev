@@ -7,7 +7,7 @@ VOLUME /var/rocketmq
 
 ENV  NAMESRV_ADDR=127.0.0.1:9876
 
-EXPOSE 9876 8080
+EXPOSE 9876 8080 10911
 
 COPY ./rocketmq-all-4.8.0-bin-release/ rocketmq-console-ng-2.0.0.jar  /opt/rocketmq/
 
